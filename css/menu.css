@@ -159,7 +159,7 @@ p,
 a,
 i {
     text-decoration: none;
-    color: azure;
+    color: rgb(231, 204, 171);
 }
 
 h1 {
@@ -186,7 +186,7 @@ h4 {
 p,
 a {
     font-size: 3rem;
-    color: azure;
+    color: rgb(231, 204, 171);
 }
 
 /* header section */
@@ -305,7 +305,7 @@ footer {
     padding-top: 2.5vh;
 
     background-color: rgb(0, 4, 17);
-    color: azure;
+    color: rgb(231, 204, 171);
 
 }
 
