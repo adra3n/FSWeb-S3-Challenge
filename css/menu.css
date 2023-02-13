@@ -189,6 +189,18 @@ a {
     color: rgb(231, 204, 171);
 }
 
+/*animations*/
+
+a:hover, i:hover{
+    color: azure;
+    text-shadow: azure;
+    /* font-size: 3rem; */
+    transform: scale(1.3);
+    transition: 0.8s;
+
+}
+
+
 /* header section */
 header {
     width: 100%;
@@ -201,7 +213,7 @@ header {
 
 
 .header-shadow {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -251,7 +263,7 @@ header {
 }
 
 .menu-shadow {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .menu-container {
@@ -354,16 +366,7 @@ button.uyelik-input {
         color: rgb(231, 204, 171);
     }
 
-    h2,
-    h3,
-    h4,
-    h5,
-    p,
-    a,
-    i {
-        color: rgb(231, 204, 171);
-    }
-
+  
 
     .header-title {
         width: 75%;
@@ -400,21 +403,26 @@ button.uyelik-input {
     .menu h4 {
         color: rgb(0, 4, 17);
         text-align: center;
+        
     }
 
     .menu h3{
         border: 0.5rem solid;
-        padding: 1rem;
+        padding: 2rem;
+        margin: auto;
     }
 
     .menu-item,
     .menu-item span {
         flex-direction: column;
+    
+
     }
 
     .menu-item {
         border-bottom: 5px solid ;
         padding: 10% 0;
+     
     }
 
  .menu-item:last-child {
@@ -424,23 +432,28 @@ button.uyelik-input {
 
     .menu {
         background-image: none;
-        text-align: center;
-
+  
     }
 
     .menu-shadow {
         background-color: rgb(231, 204, 171);
         font-size: 1rem;
+        align-items: center;
+        width: 100%;
     }
 
     .menu-container {
         flex-direction: column;
         align-items: center;
         height: auto;
-        width: 70%;
+        width: 100%;
         margin: auto;
+        text-align: center;
+        align-items: center;
     }
-
+.menu-item{
+    text-align: center;
+}
   
     /* footer section */
     footer {
@@ -463,12 +476,13 @@ button.uyelik-input {
     }
 }
 
+/* 
 
 @media (max-width: 428px) {
-
+ */
 
     /* header section */
-    .header-shadow {
+    /* .header-shadow {
         height: 100%;
     }
 
@@ -488,15 +502,15 @@ button.uyelik-input {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     /* menu */
-    .menu {
+    /* .menu {
         background-image: none;
-    }
+    } */
 
     /* footer section */
-    footer {
+    /* footer {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
@@ -514,4 +528,4 @@ button.uyelik-input {
         margin-bottom: 5%;
         
     }
-}
+} */
