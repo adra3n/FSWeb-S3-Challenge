@@ -403,13 +403,18 @@ button.uyelik-input {
     .menu h4 {
         color: rgb(0, 4, 17);
         text-align: center;
-        
+       
+    }
+
+    .menu h2{
+        font-size: 5.5rem;
     }
 
     .menu h3{
         border: 0.5rem solid;
         padding: 2rem;
         margin: auto;
+        font-size: 4.5rem;
     }
 
     .menu-item,
